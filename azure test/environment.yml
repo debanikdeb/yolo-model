@@ -1,0 +1,19 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8  # Use Python 3.8 for better compatibility with YOLO
+  - pip
+  - numpy
+  - pandas
+  - opencv
+  - scikit-learn
+  - pytorch
+  - torchvision
+  - pip:
+      - ultralytics  # YOLO package via pip
+      - requests     # To make HTTP requests in your inference script
+      - pillow       # For handling images in PIL format
+      - onnxruntime  # If you're planning to use ONNX models, optional
+      - tensorboard  # Optional, for debugging and logging
+name: yolo_env

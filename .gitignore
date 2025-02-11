@@ -1,0 +1,20 @@
+# Ignore virtual environment
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment variables
+.env
+
+# Ignore VS Code settings
+.vscode/
+
+#Ignore test files
+test.py
+
+# #untrack .env file
+logs/
+*.log
+tmp/
